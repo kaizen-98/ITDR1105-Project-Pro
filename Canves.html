@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+                    <head>
+                     <link rel="stylesheet" type="text/css"  href="CssIndex.css">
+                        <title> Canvas </title>
+    <script>
+window.onload = function() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("scream");
+   ctx.drawImage(img, 100, 100,250,250);
+};
+</script>
+
+    
+    
+                    </head>
+<body>
+          <center>     <h2> Here Canvas affect  </h2> </center> 
+    
+      <center>
+    
+<p>Image :</p>
+
+<img id="scream" width="220" height="277"
+src="Pictures/new-york-690214_1280.jpg" alt="The Scream">
+
+<p> After We put it in Canvas:</p>
+
+<canvas id="myCanvas" width="350" height="350"
+style="border:2px solid #d3d3d3;">
+
+</canvas>
+
+    
+    
+    
+    
+    
+     </center> 
+    
+    
+    
+ </body>
+ </html>
